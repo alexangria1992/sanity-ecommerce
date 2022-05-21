@@ -6,8 +6,7 @@ export default {
     {
       name: "image",
       title: "Image",
-      type: "array",
-      of: [{ type: "image" }],
+      type: "image",
       options: {
         hotspot: true,
       },
@@ -45,6 +44,16 @@ export default {
     {
       name: "largeText2",
       title: "LargeText2",
+      type: "string",
+    },
+    {
+      name: "discount",
+      title: "Discount",
+      type: "string",
+    },
+    {
+      name: "saleTime",
+      title: "SaleTime",
       type: "string",
     },
   ],
